@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: calc(62.5% / 10);
+}
+body {
+    height: 100%;
+}
+/*------------------------------*/
+#main {
+    width: 90vw;
+    height: auto;
+    margin: 10vw auto;
+    background-color: #eee;
+    border-radius: 2vw;
+
+    #title {
+        color: black;
+        font-weight: bold;
+        font-size: 7vw;
+        text-align: center;
+        padding-top: 2vw;
+    }
+    #subtitle {
+        text-align: center;
+        padding-bottom: 2vw;
+        font-weight: bold;
+        font-size: 3vw;
+    }
+    #img-div {
+        width: 95%;
+        height: 60vw;
+        margin: 0 auto;
+        background-color: white;
+        border-radius: 2vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            margin: 0 auto;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            border-radius: 2vw 2vw 0 0;
+        }
+        #img-caption {
+            margin: 1vw;
+            font-size: 2vw;
+        }
+    }
+    h2 {
+        font-weight: bold;
+        font-size: 4vw;
+        text-align: center;
+        margin: 3vw;
+    }
+    #tribute-info {
+        width: 90%;
+        font-size: 4vw;
+        margin: 0 0 0 6vw;
+        padding-bottom: 3vw;
+
+        li {
+            width: 100%;
+            margin: 4vw 0;
+            
+            p{
+                width: 100%;
+            }
+        }
+    }
+    #quote{
+        font-style: italic;
+        font-size: 4vw;
+        margin: 0 3vw;
+        padding-bottom: 3vw;
+    }
+    #quote-author {
+        font-style: italic;
+        font-size: 4vw;
+        margin: 0 3vw;
+        padding-bottom: 6vw;
+    }
+    #more-info{
+        font-weight: bold;
+        font-size: 4vw;
+        margin: 0 3vw;
+        padding-bottom: 4vw;
+    }
+}
